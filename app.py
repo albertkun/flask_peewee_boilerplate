@@ -12,9 +12,6 @@ app = Flask(__name__)
 def index():
     return 'hello heroku pipeline test-github-mdh'
 
-# set the script to run
-if __name__ == '__main__':
-    app.run(debug=True)
 @app.teardown_request
 def _db_close(exc):
     if not db.is_closed():
