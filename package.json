@@ -1,0 +1,8 @@
+{
+    "name": "splatfest-bot",
+    "version": "1.0.0",
+    "description": "Bot for helping to administer splatoon splatfests",
+    "main": "bot.js",
+    "author": "alko",
+    "dependencies": {}
+}
